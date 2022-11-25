@@ -4,4 +4,4 @@
 
 - React
 - Material-UI
-- SCSS
+- CSS
