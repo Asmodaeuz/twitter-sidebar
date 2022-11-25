@@ -1,0 +1,77 @@
+.sidebar {
+    box-shadow: 0 0 6px hsl(210 14% 90%);
+    margin: 20px auto 0 auto;
+    min-width: 250px;
+    padding: 20px 20px;
+    width: 250px;
+}
+
+#tweet {
+    background-color: hsl(203, 89%, 64%);
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+    height: 50px;
+    text-transform: inherit;
+    width: 100%;
+}
+
+#moreLinks {
+    width: 100%;
+    border-radius: 30px;
+    font-weight: 700;
+    justify-content: unset;
+    font-size: 20px;
+    margin-right: 20px;
+    text-transform: inherit;
+    color: black;
+    height: 60px;
+    padding-left: 10px;
+    padding-right: 30px;
+    margin-bottom: 5px;
+}
+
+#moreLinks .MuiSvgIcon-root {
+    padding: 0 20px 0 10px;
+}
+
+#moreLinks:hover {
+    background-color: hsl(205, 92%, 95%);
+    color: hsl(203, 89%, 64%);
+    transition: color 100ms ease-out;
+}
+
+#longMenu .MuiMenu-paper {
+    left: 45% !important;
+    max-height: 100vh;
+    top: unset !important;
+    width: 220px;
+}
+
+#longMenu .MuiMenuItem-root {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.MuiMenuItem-root:nth-child(6) {
+    border-bottom: 1px solid hsl(210, 12%, 95%);
+}
+
+.MuiMenuItem-root .MuiSvgIcon-root {
+    color: hsl(20, 12%, 20%);
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 425px) {
+    #longMenu .MuiMenu-paper {
+        left: 33% !important;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #longMenu .MuiMenu-paper {
+        left: 50% !important;
+    }
+}
